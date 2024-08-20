@@ -9,8 +9,6 @@ const authInterceptor = (
   config: InternalAxiosRequestConfig
 ): InternalAxiosRequestConfig => {
   config.headers['Authorization'] = `Bearer ${token}`;
-  console.log('token');
-  console.log(token);
   return config;
 };
 
