@@ -1,4 +1,1 @@
-import 'vite/client';
-/// <reference types="vite/client" />
-
-export const thirdPartyId = import.meta.env.VITE_TOKEN;
+export const token = import.meta.env.VITE_TOKEN;
