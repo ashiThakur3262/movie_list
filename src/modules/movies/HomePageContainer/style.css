@@ -1,0 +1,17 @@
+.movie-container-main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: 'center';
+  align-items: 'center';
+  align-content: 'center';
+}
+
+.movie-searchbox-main {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  align-items: center;
+  padding: 1rem;
+}
